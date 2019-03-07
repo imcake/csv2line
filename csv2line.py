@@ -38,8 +38,8 @@ arcpy.CheckOutExtension("Spatial")
 # NEED THE CHANGE THE VABIABLES BELOW
 ##########################################
 path = "E:/*******"
-lines = "test.shp"
-csv_file = 'test.csv'
+lines = "test.shp"  # output shapefile name
+csv_file = 'test.csv'  # input csv file name
 p1_lng_index = 1
 p1_lat_index = 2
 p2_lng_index = 4
