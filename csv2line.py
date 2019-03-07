@@ -37,7 +37,7 @@ arcpy.CheckOutExtension("Spatial")
 ##########################################
 # NEED THE CHANGE THE VABIABLES BELOW
 ##########################################
-path = "E:/*******"
+path = "E:/*******"  # need to change the workspace path
 lines = "test.shp"  # output shapefile name
 csv_file = 'test.csv'  # input csv file name
 p1_lng_index = 1
